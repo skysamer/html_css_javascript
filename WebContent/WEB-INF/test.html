@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+alert("경고창입니다.");
+document.write("test<br>");
+function kindShape() {
+	document.write("** 도형의 넓이 **<br>");
+}
+function getSquareSize(bottom, height) {
+	return bottom*height;
+}
+kindShape();
+document.write("사각형 넓이: "+getSquareSize(4, 5)+"<br>");
+var zoid=function(bottom, top, height){
+	return (bottom+top)*height/2;
+}
+document.write("사다리꼴: "+zoid(5, 4, 3)+"<br>")
+
+</script>
+</body>
+</html>
